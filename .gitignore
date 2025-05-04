@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.env
+.env.local
+.env.*.local
+*.local
+*.log
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Optional: logs y coverage
+logs/
+*.tgz
+coverage/
+.nyc_output/
+
+# Optional: PM2
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: next.js / Nuxt / SvelteKit
+.next/
+.nuxt/
+.svelte-kit/
+out/
+
+# Optional: testing
+jest-cache/
+jest-output/
+__tests__/output/
