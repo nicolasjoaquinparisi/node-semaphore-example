@@ -2,7 +2,7 @@ import semaphore from "semaphore";
 import { readFile } from "fs/promises";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
-import Queue from "./queue.js";
+import Queue from "./Queue.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
